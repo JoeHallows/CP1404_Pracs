@@ -4,8 +4,6 @@ colour_name_dict = {"aliceblue": "#f0f8ff", "antiquewhite": "#faebd7", "aquamari
                     "blue1": "#0000ff", "blueviolet": "#8a2be2", "burlywood": "#deb887",
                     "chocolate": "#d2691e"}
 
-# print(colour_name_dict)
-
 colour_to_check = input("Colour: ").lower()
 while colour_to_check != "":
     if colour_to_check in colour_name_dict:
