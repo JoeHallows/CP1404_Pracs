@@ -31,8 +31,8 @@ class ConvertMtoKM(App):
     def update_result(self, km):
         self.km_result = str(km)
 
-    # def handle_increment(self, text):
-
+    def handle_increment(self, text):
+        pass
 
     def convert_to_number(self, text):
         """Convert text to float, or to 0.0 if invalid."""
