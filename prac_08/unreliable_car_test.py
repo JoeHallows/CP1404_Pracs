@@ -16,7 +16,7 @@ def main():
     unreliable_car = UnreliableCar(name, 100, reliability)
     distance_to_drive = int(input("Kms to Drive: "))
     unreliable_car.drive(distance_to_drive)
-    print("{self.name}, fuel={self.fuel}, odometer={self.odometer}".format(self=unreliable_car))
+    print("{self.name}, fuel = {self.fuel}, odometer = {self.odometer}".format(self=unreliable_car))
 
 
 main()
