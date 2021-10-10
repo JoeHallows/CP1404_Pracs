@@ -13,4 +13,5 @@ class SilverServiceTaxi(Taxi):
 
     def get_fare(self):
         fare_result = SilverServiceTaxi.price_per_km * self.fanciness * self.current_fare_distance + SilverServiceTaxi.flagfall
+        fare_result = round(fare_result, 1)
         return fare_result
